@@ -1,11 +1,14 @@
 import "./App.css";
+import Login from "./Login.jsx";
 
 function App() {
   //JS Kodları
-  let a = 5;
+
   return (
     //Html Kodları
-    <div>değişken kullanımı a = {a}</div>
+    <div>
+     <Login />
+    </div>
   );
 }
 
